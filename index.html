@@ -2,11 +2,148 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <span>PINK</span> <!-- Или это картинка? -->
+      </div>
+      <nav class="main-nav">
+        <span class="main-nav__toggle main-nav_toggle--closed"></span>
+        <div class="main-nav__wrapper main-nav__wrapper--closed">
+          <ul class="main-nav__items">
+            <li class="main-nav__item main-nav__item--active"><a href="#">Пункт1</a></li>
+            <li class="main-nav__item"><a href="#">Пункт2</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <section class="welcome-picture">
+      <div class="welcome-picture__text">
+        Взгляните на жизнь иначе!
+      </div>
+    </section>
 
+    <section class="download-app">
+      <div class="download-app__btn">
+        Скачать приложение
+      </div>
+      <div class="download-app__platform-icons">
+        <span class="download-app__platform-icons download-app__platform-icons--apple"></span>
+        <span class="download-app__platform-icons download-app__platform-icons--android"></span>
+        <span class="download-app__platform-icons download-app__platform-icons--windows"></span>
+      </div>
+      <div class="download-app__text">
+        Доступно для iPhone, iPad, Android,<br>Windows Phone, OS X, Windows 8
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="advantages__header">
+        <div>Устали от серости мегаполиса?</div>
+        <div>Нам есть, что вам предложить!</div>
+      </div>
+      <ul class="advanatges__items">
+        <li class="advantages__item">
+          <h2 class="advantages__title">Поднимает настроение</h2>
+          <div class="advantages__text">Приложение позволит вам победить<br>осеннюю хандру и депрессию<br>буквально в несколько кликов!></div>
+        </li>
+        <li class="advantages__item">
+          <h2 class="advantages__title">Меняет мир вокруг</h2>
+          <div class="advantages__text">Сделайте снимок и украсьте его<br>смайликом или текстовой подписью,<br>чтобы усилить эффект></div>
+        </li>
+        <li class="advantages__item">
+          <h2 class="advantages__title">Заводит новых друзей</h2>
+          <div class="advantages__text">Ставьте лайки, комментируйте, делитесь<br>фотографиями с друзьями и заводите<br>новых></div>
+        </li>
+      </ul>
+      <div class="advantages__picture">
+        <img src="image.jpg" alt="Общение">
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews__items">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-1">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-2">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-3">
+        <div class="reviews__item">
+          <div class="reviews__title">
+            Николай Петров
+          </div>
+          <div class="reviews__text">
+            "Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
+          </div>
+        </div>
+      </div>
+      <div class="slider-nav advantages__nav">
+        <label class="slider-nav__btn" for="advantages-radio-1">1</label>
+        <label class="slider-nav__btn" for="advantages-radio-2">2</label>
+        <label class="slider-nav__btn" for="advantages-radio-3">3</label>
+      </div>
+    </section>
+
+    <section class="app-versions">
+      <div class="app-versions__items">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-1">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-2">
+        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-3">
+        <div class="app-versions__item">
+          <div class="app-versions__header">
+            <div class="app-versions__name">
+              Стандарт
+            </div>
+            <div class="app-versions__price">
+              3,99 USD
+            </div>
+          </div>
+          <div class="app-versions__attrs">
+            <div class="app-version__attr">
+              Розовый фильтр
+            </div>
+            <div class="app-version__attr">
+              Смайлики
+            </div>
+            <div class="app-version__attr">
+              Комментарии
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-nav app-versions__nav">
+        <label class="slider-nav__btn" for="app-versions-radio-1">1</label>
+        <label class="slider-nav__btn" for="app-versions-radio-2">2</label>
+        <label class="slider-nav__btn" for="app-versions-radio-3">3</label>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="page-footer__title">
+        Остались вопросы?<br>Свяжитесь с нами!
+      </div>
+      <section class="contacts">
+          <div class="contacts__title">
+            Звоните:
+          </div>
+          <div class="contacts__text">
+            +7 (812) 555-66-66
+          </div>
+          <div class="contacts__title">
+            Пишите:
+          </div>
+          <div class="contacts__text">
+            mail@htmlacademy.ru
+          </div>
+          <div class="contacts__title">
+            Приезжайте в гости:
+          </div>
+          <div class="contacts__text">
+            ул. Большая<br>Конюшенная, 19/8
+        </div>
+        <div class="contacts__map"></div>
+      </section>
+    </footer>
   </body>
 </html>
