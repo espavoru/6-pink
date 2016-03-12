@@ -7,176 +7,151 @@
   <body>
     <header class="page-header">
       <div class="page-header__logo">
-        <span>PINK</span> <!-- Или это картинка? -->
+        <a href="index.html">PINK</a>
       </div>
       <nav class="main-nav">
         <span class="main-nav__toggle main-nav_toggle--closed"></span>
         <div class="main-nav__wrapper main-nav__wrapper--closed">
           <ul class="main-nav__items">
-            <li class="main-nav__item main-nav__item--active"><a href="#">Пункт1</a></li>
-            <li class="main-nav__item"><a href="#">Пункт2</a></li>
+            <li class="main-nav__item"><a href="#">Информация</a></li>
+            <li class="main-nav__item"><a href="#">Возможности</a></li>
+            <li class="main-nav__item"><a href="#">Отзывы</a></li>
+            <li class="main-nav__item"><a href="#">Стоимость</a></li>
           </ul>
         </div>
       </nav>
-    </header>
-
-    <section class="welcome-picture welcome-picture--small">
-      <h1 class="welcome-picture__title">
-        Фотографии<br>пользователей
+      <h1 class="page-header__title">
+        Фотографии пользователей
       </h1>
-    </section>
-
-    <div class="description-text">
-      Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
-    </div>
-
-    <div class="photos">
-      <div class="photos__main-photo">Панорама дня</div>
-      <ul class="photos__photos-list">
-        <li class="photos__photo-item">
-          <div class="photos__image photos__image--top-image">
-           <img src="#" alt="Фото дня"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Анна</span>(5 минут назад)
-            </div>
-            <div class="photos__description-text">
+    </header>
+    <main>
+      <p class="description-text">
+        Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
+      </p>
+      <div class="photos">
+        <ul class="photos__photos-list">
+          <li class="post">
+            <a class="post__image post__image--top-image" href="#">
+             <img src="#" alt="Фото дня">
+            </a>
+            <h2 class="post__author">Анна <span>(5 минут назад)</span></h2>
+            <p class="post__text">
               Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую транслацию в перископе, задавайте свои вопросы!
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 215</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Левон</span> (5 часов назад) 
-            </div>
-            <div class="photos__description-text">
+            <div class="post__corner-pic">Панорама дня</div>
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+             <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Левон <span>(5 часов назад)</span></h2>
+            <p class="post__text">
               Вчера он на луну летал, сегодня в руки к нам попал.
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 356</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Антон</span> (12 часов назад) 
-            </div>
-            <div class="photos__description-text">
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+             <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Антон <span>(12 часов назад)</span></h2>
+            <p class="post__text">
               Соседи будут рады!
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 666</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Борис</span> (20 часов назад) 
-            </div>
-            <div class="photos__description-text">
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+             <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Борис <span>(20 часов назад)</span></h2>
+            <p class="post__text">
               Здесь могла быть ваша цитата о высоком и вечном.
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 215</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Сергей</span> (25 часов назад) 
-            </div>
-            <div class="photos__description-text">
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+             <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Сергей <span>(25 часов назад)</span></h2>
+            <p class="post__text">
               Самая кубанская в мире!
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 444</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Максим</span> (40 часов назад) 
-            </div>
-            <div class="photos__description-text">
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+             <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Максим <span>(40 часов назад)</span></h2>
+            <p class="post__text">
               Где снег-то?
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 150</span>
             </div>
-          </div>
-        </li>
-        <li class="photos__photo-item">
-          <div class="photos__image">
-           <img src="#" alt="Фото"> 
-          </div>
-          <div class="photos__description">
-            <div class="photos__author">
-              <span>Надежда</span> (45 часов назад) 
-            </div>
-            <div class="photos__description-text">
+          </li>
+          <li class="post">
+            <a class="post__image" href="#">
+              <img src="#" alt="Фото">
+            </a>
+            <h2 class="post__author">Надежда <span>(45 часов назад)</span></h2>
+            <p class="post__text">
               Всем GM и взаимные лайки!
-            </div>
-            <div class="photos__likes">
+            </p>
+            <div class="post__likes">
+              <span class="post__like-icon"></span>
               <span>Нравится: 2560</span>
             </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="description-text">
-      Затмите их всех!<br>Выкладывайте все, что накопилось в<br>телефоне!
-    </div>
-
-    <section class="upload-photo">
-      <form name="upload-photo" action="#" method="post">
-        <img src="#" alt="загружаемая фотография" class="upload-photo__image">
-        <div class="upload_photo__filters">
-          <label class="upload_photo__label upload_photo__label--filter1" for="filter1">Фильтр1</label>
-          <label class="upload_photo__label upload_photo__label--filter2" for="filter2">Фильтр2</label>
-          <label class="upload_photo__label upload_photo__label--filter3" for="filter3">Фильтр3</label>
-          <input class="upload_photo__range active" type="range" id="filter1" name="filter1">
-          <input class="upload_photo__range" type="range" id="filter2" name="filter2">
-          <input class="upload_photo__range" type="range" id="filter3" name="filter3">
-        </div>
-        <button class="load-photo__load-photo-btn" type="submit">Запостить</button>
-        <input type="reset" value="Отмена" class="load-photo__cancel-btn">
-      </form>
-    </section>
-
+          </li>
+        </ul>
+      </div>
+      <p class="description-text">
+        Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+      </p>
+      <section class="load-photo">
+        <form name="load-photo-form" class="form" action="#" method="post">
+          <img src="#" alt="загружаемая фотография" class="load-photo__image">
+          <fieldset class="load_photo__filters">
+            <label class="load_photo__label load_photo__label--filter1" for="filter1">Фильтр1</label>
+            <label class="load_photo__label load_photo__label--filter2" for="filter2">Фильтр2</label>
+            <label class="load_photo__label load_photo__label--filter3" for="filter3">Фильтр3</label>
+            <input class="load_photo__range" type="range" id="filter1" name="filter1">
+            <input class="load_photo__range" type="range" id="filter2" name="filter2">
+            <input class="load_photo__range" type="range" id="filter3" name="filter3">
+          </fieldset>
+          <button class="load-photo__load-photo-btn" type="submit">Запостить</button>
+          <input type="reset" value="Отмена" class="load-photo__cancel-btn">
+        </form>
+      </section>
+    </main>
     <footer class="page-footer">
-      <div class="page--footer__logo">
-        PINK
+      <div class="page-footer__logo">
+        <a href="index.html">PINK</a>
       </div>
       <section class="page-footer__social">
         <div class="social-links">
-          <a class="social-link social-link--tw" href="#">Твиттер</a>
-          <a class="social-link social-link--fb" href="#">Фейсбук</a>
-          <a class="social-link social-link--ytb" href="#">Ютуб</a>
+          <a class="social-links__link social-links__link--tw" href="#">Твиттер</a>
+          <a class="social-links__link social-links__link--fb" href="#">Фейсбук</a>
+          <a class="social-links__link social-links__link--ytb" href="#">Ютуб</a>
         </div>
       </section>
       <section class="page-footer__copyright">

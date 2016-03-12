@@ -7,141 +7,156 @@
   <body>
     <header class="page-header">
       <div class="page-header__logo">
-        <span>PINK</span> <!-- Или это картинка? -->
+        <a href="index.html">PINK</a>
       </div>
       <nav class="main-nav">
         <span class="main-nav__toggle main-nav_toggle--closed"></span>
         <div class="main-nav__wrapper main-nav__wrapper--closed">
           <ul class="main-nav__items">
-            <li class="main-nav__item main-nav__item--active"><a href="#">Пункт1</a></li>
-            <li class="main-nav__item"><a href="#">Пункт2</a></li>
+            <li class="main-nav__item"><a href="#">Информация</a></li>
+            <li class="main-nav__item"><a href="#">Возможности</a></li>
+            <li class="main-nav__item"><a href="#">Отзывы</a></li>
+            <li class="main-nav__item"><a href="#">Стоимость</a></li>
           </ul>
         </div>
       </nav>
-    </header>
-
-    <section class="welcome-picture welcome-picture--big">
-      <h1 class="welcome-picture__title">
+      <h1 class="page-header__title">
         Взгляните на жизнь иначе!
       </h1>
-    </section>
-
-    <section class="download-app">
-      <div class="download-app__btn">
-        Скачать приложение
-      </div>
-      <div class="download-app__platform-icons">
-        <span class="download-app__platform-icons download-app__platform-icons--apple"></span>
-        <span class="download-app__platform-icons download-app__platform-icons--android"></span>
-        <span class="download-app__platform-icons download-app__platform-icons--windows"></span>
-      </div>
-      <div class="download-app__text">
-        Доступно для iPhone, iPad, Android,<br>Windows Phone, OS X, Windows 8
-      </div>
-    </section>
-
-    <section class="advantages">
-      <div class="advantages__header">
-        <div>Устали от серости мегаполиса?</div>
-        <div>Нам есть, что вам предложить!</div>
-      </div>
-      <ul class="advanatges__items">
-        <li class="advantages__item">
-          <h2 class="advantages__title">Поднимает настроение</h2>
-          <div class="advantages__text">Приложение позволит вам победить<br>осеннюю хандру и депрессию<br>буквально в несколько кликов!></div>
-        </li>
-        <li class="advantages__item">
-          <h2 class="advantages__title">Меняет мир вокруг</h2>
-          <div class="advantages__text">Сделайте снимок и украсьте его<br>смайликом или текстовой подписью,<br>чтобы усилить эффект></div>
-        </li>
-        <li class="advantages__item">
-          <h2 class="advantages__title">Заводит новых друзей</h2>
-          <div class="advantages__text">Ставьте лайки, комментируйте, делитесь<br>фотографиями с друзьями и заводите<br>новых></div>
-        </li>
-      </ul>
-      <div class="advantages__picture">
-        <img src="image.jpg" alt="Общение">
-      </div>
-    </section>
-
-    <section class="reviews">
-      <div class="reviews__items">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-1">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-2">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-3">
-        <div class="reviews__item">
-          <div class="reviews__title">
-            Николай Петров
-          </div>
-          <div class="reviews__text">
-            "Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"
-          </div>
+    </header>
+    <main>
+      <section class="download-app">
+        <a class="download-app__btn" href="https://itunes.apple.com">
+          Скачать приложение
+        </a>
+        <div class="download-app__platform-icons">
+          <a class="platform-icon platform-icon--apple" href="https://itunes.apple.com">Скачать apple</a>
+          <a class="platform-icon platform-icon--android" href="https://play.google.com">Скачать android</a>
+          <a class="platform-icon platform-icon--windows" href="https://www.microsoft.com/store/apps">Скачать windows phone</a>
         </div>
-      </div>
-      <div class="slider-nav advantages__nav">
-        <label class="slider-nav__btn" for="advantages-radio-1">1</label>
-        <label class="slider-nav__btn" for="advantages-radio-2">2</label>
-        <label class="slider-nav__btn" for="advantages-radio-3">3</label>
-      </div>
-    </section>
-
-    <section class="app-versions">
-      <div class="app-versions__items">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-1">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-2">
-        <input class="slider-nav__switcher" type="radio" name="advantages" id="app-versions-radio-3">
-        <div class="app-versions__item">
-          <div class="app-versions__header">
-            <div class="app-versions__name">
-              Стандарт
-            </div>
-            <div class="app-versions__price">
-              3,99 USD
-            </div>
-          </div>
-          <div class="app-versions__attrs">
-            <div class="app-version__attr">
-              Розовый фильтр
-            </div>
-            <div class="app-version__attr">
-              Смайлики
-            </div>
-            <div class="app-version__attr">
-              Комментарии
-            </div>
-          </div>
+        <p class="download-app__text">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </section>
+      <section class="advantages">
+        <div class="advantages__header">
+          <p>Устали от серости мегаполиса?
+          Нам есть, что вам предложить!</p>
         </div>
-      </div>
-      <div class="slider-nav app-versions__nav">
-        <label class="slider-nav__btn" for="app-versions-radio-1">1</label>
-        <label class="slider-nav__btn" for="app-versions-radio-2">2</label>
-        <label class="slider-nav__btn" for="app-versions-radio-3">3</label>
-      </div>
-    </section>
+        <ul class="advantages__items">
+          <li class="advantage">
+            <h2 class="advantage__title">Поднимает настроение</h2>
+            <p class="advantage__text">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!>
+            </p>
+          </li>
+          <li class="advantage">
+            <h2 class="advantage__title">Меняет мир вокруг</h2>
+            <p class="advantage__text">
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект>
+            </p>
+          </li>
+          <li class="advantage">
+            <h2 class="advantage__title">Заводит новых друзей</h2>
+            <p class="advantage__text">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых>
+            </p>
+          </li>
+        </ul>
+        <div class="advantages__picture">
+          <img src="image.jpg" alt="Общение">
+        </div>
+      </section>
+      <section class="reviews">
+        <ul class="reviews__items">
+          <li class="review">
+            <h2 class="review__title">Николай Петров</h2>
+            <p class="review__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </li>
+          <li class="review">
+            <h2 class="review__title">Николай Петров</h2>
+            <p class="review__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </li>
+          <li class="review">
+            <h2 class="review__title">Николай Петров</h2>
+            <p class="review__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </li>
+        </ul>
+        <div class="slider-nav">
+          <label class="slider-nav__label" for="advantages-radio-1">1</label>
+          <label class="slider-nav__label" for="advantages-radio-2">2</label>
+          <label class="slider-nav__label" for="advantages-radio-3">3</label>
 
+          <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-1">
+          <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-2">
+          <input class="slider-nav__switcher" type="radio" name="advantages" id="advantages-radio-3">
+        </div>
+      </section>
+      <section class="app-versions">
+        <ul class="app-versions__items">
+          <li class="app-version">
+            <h1 class="app-version__header">
+              <span class="app-version__name">База</span>
+              <span class="app-version__price">1,99 USD</span>
+            </h1>
+            <ul class="app-version__attrs app-version__attrs--base">
+              <li class="app-version__attr">Розовый фильтр<span class="attr-yes">Yes</span></li>
+              <li class="app-version__attr">Смайлики<span class="attr-no">No</span></li>
+              <li class="app-version__attr">Комментарии<span class="attr-no">No</span></li>
+            </ul>
+          </li>
+          <li class="app-version">
+            <h1 class="app-version__header">
+              <span class="app-version__name">Стандарт</span>
+              <span class="app-version__price">3,99 USD</span>
+            </h1>
+            <ul class="app-version__attrs app-version__attrs--standard">
+              <li class="app-version__attr">Розовый фильтр<span class="attr-yes">Yes</span></li>
+              <li class="app-version__attr">Смайлики<span class="attr-yes">Yes</span></li>
+              <li class="app-version__attr">Комментарии<span class="attr-no">No</span></li>
+            </ul>
+          </li>
+          <li class="app-version">
+            <h1 class="app-version__header">
+              <span class="app-version__name">Анлим</span>
+              <span class="app-version__price">9,99 USD</span>
+            </h1>
+            <ul class="app-version__attrs app-version__attrs--anlim">
+              <li class="app-version__attr">Розовый фильтр<span class="attr-yes">Yes</span></li>
+              <li class="app-version__attr">Смайлики<span class="attr-yes">Yes</span></li>
+              <li class="app-version__attr">Комментарии<span class="attr-yes">Yes</span></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="slider-nav">
+          <label class="slider-nav__label" for="app-versions-radio-1">1</label>
+          <label class="slider-nav__label" for="app-versions-radio-2">2</label>
+          <label class="slider-nav__label" for="app-versions-radio-3">3</label>
+          <input class="slider-nav__switcher" type="radio" name="app-versions" id="app-versions-radio-1">
+          <input class="slider-nav__switcher" type="radio" name="app-versions" id="app-versions-radio-2">
+          <input class="slider-nav__switcher" type="radio" name="app-versions" id="app-versions-radio-3">
+        </div>
+      </section>
+    </main>
     <footer class="page-footer">
-      <div class="page-footer__title">
-        Остались вопросы?<br>Свяжитесь с нами!
-      </div>
+      <p class="page-footer__title">
+        Остались вопросы? Свяжитесь с нами!
+      </p>
       <section class="contacts">
-          <div class="contacts__title">
-            Звоните:
-          </div>
-          <div class="contacts__text">
-            +7 (812) 555-66-66
-          </div>
-          <div class="contacts__title">
-            Пишите:
-          </div>
-          <div class="contacts__text">
-            mail@htmlacademy.ru
-          </div>
-          <div class="contacts__title">
-            Приезжайте в гости:
-          </div>
-          <div class="contacts__text">
-            ул. Большая<br>Конюшенная, 19/8
-        </div>
+        <p class="contacts__title">Звоните:</p>
+        <p class="contacts__text">+7 (812) 555-66-66</p>
+        <p class="contacts__title">Пишите:</p>
+        <a class="contacts__text" href="mailto:mail@htmlacademy.ru">
+          mail@htmlacademy.ru
+        </a>
+        <p class="contacts__title">Приезжайте в гости:</p>
+        <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
         <div class="contacts__map"></div>
       </section>
     </footer>
