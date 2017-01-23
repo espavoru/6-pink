@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Анастасия Гуревич](https://up.htmlacademy.ru/adaptive/6/user/60758).
-* Наставник: [Леонид Лебедев](https://up.htmlacademy.ru/adaptive/6/user/67135).
+* Студент: [Keks] someUrl
+* Наставник: 
 
 ---
 
